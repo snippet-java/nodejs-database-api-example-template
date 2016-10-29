@@ -1,0 +1,13 @@
+applications:
+- name: NodeDataAPIExample
+  memory: 256M
+  disk_quota: 512M
+  host: NodeDataAPIExample-${random-word}
+  command: node app.js
+  buildpack: sdk-for-nodejs
+  services:
+  - sample-data
+declared-services:
+  sample-data:
+    label: data
+    plan:  free

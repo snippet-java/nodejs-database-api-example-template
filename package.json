@@ -1,0 +1,21 @@
+{
+	"name": "NodeDataAPI",
+	"version": "0.1.0",
+	"dependencies": {
+		"express": "~4.13.4",
+		"body-parser": "~1.15.0",
+		"http": "*",
+		
+		"cf-deployment-tracker-client": "*"
+	},
+	"scripts": {
+		"start": "node app.js"
+	},
+	"engines": {
+		"node": "*"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/snippet-java/nodejs-database-api-example-template.git"
+	}
+}
